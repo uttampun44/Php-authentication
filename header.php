@@ -71,5 +71,9 @@
            </div>
        </nav>
    </header>
+   <script type="text/javascript">
+     let sessionValue = '<?php echo $userName?>';
+     console.log(sessionValue);
+   </script>
 </body>
 </html>
